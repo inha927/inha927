@@ -44,7 +44,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash(git status:*), Bash(git diff:
 
 ## 4. 동기화
 
-- **일반 git 저장소:** 상태 파일 변경만 커밋하고 푸시한다 (다른 기기·클라우드 세션이 읽도록)
+- **일반 git 저장소:** 상태 파일 갱신을 반드시 커밋·푸시한다 (다른 기기·클라우드 세션이 읽도록). 세션 중 작업 파일이 있으면 같이 커밋해도 된다
 - **UEFN 프로젝트 루트:** git 금지 — Revision Control이 동기화한다. 체크인은 사용자가 에디터에서 하므로, 갱신 후 "Check-in Changes에 DEV_STATE.md가 잡히는지 확인해달라"고 알린다
 
 ## 5. 마지막

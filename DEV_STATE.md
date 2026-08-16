@@ -1,6 +1,6 @@
 # DEV_STATE
 
-> 갱신: 2026-08-16 · 갱신자: Claude · 브랜치: `claude/uefn-mcp-server-setup-9hh020` · 레포: `inha927/inha927` (공개)
+> 갱신: 2026-08-16 16:50 UTC · 갱신자: Claude · 브랜치: `claude/uefn-mcp-server-setup-9hh020` · 레포: `inha927/inha927` (공개)
 
 ## 지금 목표
 
@@ -9,6 +9,7 @@
 ## 완료된 것
 
 - **공통 프로토콜 v2.0** (`AGENTS.md`) — Claude v1.0 + Codex 전역 설정 통합본. 조항별 판정은 `docs/ai-workflow-architecture.md`의 판정표
+- 적대적 검증 2라운드 (렌즈 3종·발견 16건) 전부 반영 — 누락 조항 복원, 모순 5건 해소, 공개 레포 기획 수치 유출 1건 제거
 - `/dev-state`·`/resume` 커맨드 v2.0 — 표준 시작 문구 실행형, 8KiB 한도, 소유권 준수
 - UEFN MCP 조사 (`docs/uefn-mcp-decision.md`) — 보류, 도입 트리거 명시
 - 플라이 이스케이프: 아티팩트 실물 확인 + Codex가 PC에서 표준 구조 전환 완료 [확인: Codex 보고]
